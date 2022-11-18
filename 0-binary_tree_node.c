@@ -1,5 +1,5 @@
 #include "binary_trees.h"
-/*
+/**
  * binary_tree_node - create a new tree with as root node
  * @parent: root node
  * @value: key of the new node
