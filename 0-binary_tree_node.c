@@ -11,7 +11,6 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 
 	if (new_tree == NULL)
 	{
-		fprintf(stderr, "DYNAMIC ALLOCATION ERROR\n");
 		return (NULL);
 	}
 	new_tree->parent = parent;
